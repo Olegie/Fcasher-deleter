@@ -1,0 +1,82 @@
+   ______ ______    ___   _____ __  __ ______ _____
+  / ____// __  /   /   | / ___// / / / ____// __ \
+ / /_   / /_/ /   / /| | \__ \/ /_/ / __/  / /_/ /
+/ __/  / ____/   / ___ |___/ / __  / /___ / _, _/
+/_/    /_/       /_/  |_/____/_/ /_/_____//_/ |_|
+                 F C A S H E R
+
++--------------------------------------------------------------------------------------------+
+| FCASHER :: PREVIEW REPORT                                                                  |
+| Inspect first. Review exact paths. Delete only with intent.                                |
++--------------------------------------------------------------------------------------------+
+
+[ Session ]
+----------------------------------------------------------------------------------------------
+Mode                 : preview
+Selected categories  : User Temp, Logs, Browser Cache
+Scanned directories  : 6
+Candidates           : 5 files, 163.8 MB
+Skipped items        : 2
+
+[ Category Summary ]
+----------------------------------------------------------------------------------------------
++--------------------------+------------+----------------+
+| Category                 | Files      | Size           |
++--------------------------+------------+----------------+
+| User Temp                | 2          | 18.0 MB        |
+| Logs                     | 1          | 512 KB         |
+| Browser Cache            | 2          | 145.3 MB       |
++--------------------------+------------+----------------+
+| Total                    | 5          | 163.8 MB       |
++--------------------------+------------+----------------+
+
+[ Scanned Directories ]
+----------------------------------------------------------------------------------------------
+  - C:\Users\Admin\AppData\Local\Temp
+  - C:\Windows\Logs
+  - C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Default\Cache
+  - C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Default\Code Cache
+  - C:\Users\Admin\AppData\Local\Microsoft\Windows\INetCache
+  - C:\Users\Admin\AppData\Local\Diagnostics
+
+[ Files Selected for Cleanup ]
+----------------------------------------------------------------------------------------------
+#01  [User Temp]
+  Path         : C:\Users\Admin\AppData\Local\Temp\setup-bootstrap.tmp
+  Size         : 11.5 MB
+  Last Write   : 2026-04-03 06:11:32Z
+  Reason       : Located under the active per-user temp directory.
+
+#02  [User Temp]
+  Path         : C:\Users\Admin\AppData\Local\Temp\cef-cache\artifact.tmp
+  Size         : 6.50 MB
+  Last Write   : 2026-04-02 18:54:08Z
+  Reason       : Located under the active per-user temp directory.
+
+#03  [Logs]
+  Path         : C:\Windows\Logs\DISM\dism.log
+  Size         : 512 KB
+  Last Write   : 2026-04-01 21:45:55Z
+  Reason       : Matches log or WER report artifacts from supported log locations.
+
+#04  [Browser Cache]
+  Path         : C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000123
+  Size         : 93.1 MB
+  Last Write   : 2026-04-03 05:01:41Z
+  Reason       : Located inside a known browser cache directory.
+
+#05  [Browser Cache]
+  Path         : C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Default\Code Cache\js\index
+  Size         : 52.2 MB
+  Last Write   : 2026-04-03 04:59:13Z
+  Reason       : Located inside a known browser cache directory.
+
+[ Skipped Items ]
+----------------------------------------------------------------------------------------------
+#01  [skip]
+  Path         : C:\Windows\System32
+  Reason       : protected scan root
+
+#02  [skip]
+  Path         : C:\Users\Admin\AppData\Local\Temp\junction-cache
+  Reason       : reparse point skipped

@@ -1,0 +1,57 @@
+{
+  "tool": "Fcasher",
+  "generated_at_utc": "2026-04-03 09:20:44Z",
+  "selected_categories": [
+    {"key": "user-temp", "display_name": "User Temp"},
+    {"key": "browser-cache", "display_name": "Browser Cache"}
+  ],
+  "summary": {
+    "file_count": 4,
+    "total_size_bytes": 127487123,
+    "skipped_count": 1
+  },
+  "scanned_directories": [
+    "C:\\Users\\Admin\\AppData\\Local\\Temp",
+    "C:\\Users\\Admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache"
+  ],
+  "category_summary": [
+    {"key": "user-temp", "file_count": 2, "size_bytes": 18874368},
+    {"key": "browser-cache", "file_count": 2, "size_bytes": 108612755}
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\setup-bootstrap.tmp",
+      "category": "user-temp",
+      "size_bytes": 12058624,
+      "last_write_utc": "2026-04-03 06:11:32Z",
+      "reason": "Located under the active per-user temp directory."
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cef-cache\\artifact.tmp",
+      "category": "user-temp",
+      "size_bytes": 6815744,
+      "last_write_utc": "2026-04-02 18:54:08Z",
+      "reason": "Located under the active per-user temp directory."
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache\\f_000123",
+      "category": "browser-cache",
+      "size_bytes": 53896847,
+      "last_write_utc": "2026-04-03 05:01:41Z",
+      "reason": "Located inside a known browser cache directory."
+    },
+    {
+      "path": "C:\\Users\\Admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Code Cache\\js\\index",
+      "category": "browser-cache",
+      "size_bytes": 54715908,
+      "last_write_utc": "2026-04-03 04:59:13Z",
+      "reason": "Located inside a known browser cache directory."
+    }
+  ],
+  "skipped": [
+    {
+      "path": "C:\\Windows\\System32",
+      "reason": "protected scan root"
+    }
+  ]
+}

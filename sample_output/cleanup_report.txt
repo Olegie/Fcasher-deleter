@@ -1,0 +1,29 @@
++--------------------------------------------------------------------------------------------+
+| FCASHER :: CLEANUP REPORT                                                                  |
+| Controlled deletion results with per-item status and reclaimed space.                      |
++--------------------------------------------------------------------------------------------+
+
+[ Session ]
+----------------------------------------------------------------------------------------------
+Mode                 : clean
+Selected categories  : User Temp, Browser Cache
+Requested cleanup items : 4
+Deleted items        : 3
+Skipped items        : 1
+Potential reclaimable size : 121.6 MB
+Freed size           : 118.9 MB
+
+[ Cleanup Outcomes ]
+----------------------------------------------------------------------------------------------
++------------+------------------+--------------+---------------------------------------------------+
+| Status     | Category         | Size         | Path                                              |
++------------+------------------+--------------+---------------------------------------------------+
+| deleted    | User Temp        | 11.5 MB      | C:\Users\Admin\AppData\Local\Temp\setup-bootst... |
+  Detail       : deleted
+| deleted    | User Temp        | 6.50 MB      | C:\Users\Admin\AppData\Local\Temp\cef-cache\ar... |
+  Detail       : deleted
+| deleted    | Browser Cache    | 52.2 MB      | C:\Users\Admin\AppData\Local\Google\Chrome\Use... |
+  Detail       : deleted
+| skipped    | Browser Cache    | 51.4 MB      | C:\Users\Admin\AppData\Local\Google\Chrome\Use... |
+  Detail       : The process cannot access the file because it is being used by another process.
++------------+------------------+--------------+---------------------------------------------------+
