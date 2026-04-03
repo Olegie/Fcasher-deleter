@@ -1,4 +1,6 @@
 build/
+build-*/
+build-ci/
 out/
 bin/
 obj/

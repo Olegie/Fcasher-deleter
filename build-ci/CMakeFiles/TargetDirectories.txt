@@ -1,8 +1,0 @@
-C:/Users/Admin/Downloads/Fcasher deleter/build-ci/CMakeFiles/fcasher_core.dir
-C:/Users/Admin/Downloads/Fcasher deleter/build-ci/CMakeFiles/fcasher_app.dir
-C:/Users/Admin/Downloads/Fcasher deleter/build-ci/CMakeFiles/fcasher_cli.dir
-C:/Users/Admin/Downloads/Fcasher deleter/build-ci/CMakeFiles/fcasher.dir
-C:/Users/Admin/Downloads/Fcasher deleter/build-ci/CMakeFiles/fcasher_tests.dir
-C:/Users/Admin/Downloads/Fcasher deleter/build-ci/CMakeFiles/test.dir
-C:/Users/Admin/Downloads/Fcasher deleter/build-ci/CMakeFiles/edit_cache.dir
-C:/Users/Admin/Downloads/Fcasher deleter/build-ci/CMakeFiles/rebuild_cache.dir
