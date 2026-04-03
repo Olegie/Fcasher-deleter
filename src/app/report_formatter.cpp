@@ -184,6 +184,12 @@ std::string ReportFormatter::utcTimestamp(uint64_t unixSeconds) {
 
 #if defined(_MSC_VER)
     gmtime_s(&tmValue, &raw);
+#elif defined(__MINGW32__) || defined(__MINGW64__)
+    if (const std::tm* utcValue = std::gmtime(&raw)) {
+        tmValue = *utcValue;
+    } else {
+        return "n/a";
+    }
 #else
     gmtime_r(&raw, &tmValue);
 #endif

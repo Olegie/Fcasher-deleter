@@ -17,6 +17,8 @@ static uint64_t fc_filetime_to_unix_seconds(const FILETIME* filetime) {
 }
 
 static void fc_copy_message(char* destination, size_t destination_size, const char* value) {
+    size_t copy_length;
+
     if (destination == NULL || destination_size == 0U) {
         return;
     }
@@ -26,8 +28,13 @@ static void fc_copy_message(char* destination, size_t destination_size, const ch
         return;
     }
 
-    strncpy(destination, value, destination_size - 1U);
-    destination[destination_size - 1U] = '\0';
+    copy_length = strlen(value);
+    if (copy_length >= destination_size) {
+        copy_length = destination_size - 1U;
+    }
+
+    memcpy(destination, value, copy_length);
+    destination[copy_length] = '\0';
 }
 
 static void fc_format_windows_error(DWORD error_code,
