@@ -20,16 +20,6 @@
 
 ---
 
-## 📈 Project Status & Popularity
-
-![Stars](https://img.shields.io/badge/stars-1.2k-yellow)
-![Forks](https://img.shields.io/badge/forks-148-blue)
-![Downloads](https://img.shields.io/badge/downloads-45k-blueviolet)
-![Issues](https://img.shields.io/badge/issues-0%20open-brightgreen)
-![Pull Requests](https://img.shields.io/badge/PRs-2%20pending-orange)
-![Last Commit](https://img.shields.io/badge/last%20commit-today-lightblue)
-![Contributors](https://img.shields.io/badge/contributors-12-orange)
-
 **Fcasher** is a high-performance Windows utility for cache inspection and controlled cleanup. It bridges the gap between old-school reliability and modern system analysis.
 
 ---
@@ -157,8 +147,3 @@ Fcasher/
 
 Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
----
-
-![Total Downloads](https://img.shields.io/badge/Total%20Downloads-45k-blueviolet?style=for-the-badge)
-![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.2.4-blue?style=for-the-badge)
