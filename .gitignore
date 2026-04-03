@@ -1,0 +1,17 @@
+build/
+out/
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.log
+*.tmp
+*.cache
+reports/
+Testing/
+CTestTestfile.cmake
+cmake-build-*/
