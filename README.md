@@ -148,6 +148,5 @@ Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
 ---
 
-![Total Downloads](https://img.shields.io/badge/Total%20Downloads-45k-blueviolet?style=for-the-badge)
 ![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-1.2.4-blue?style=for-the-badge)
